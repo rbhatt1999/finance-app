@@ -1,0 +1,52 @@
+body {
+  color: white;
+  font-size: 17px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  background: rgb(29, 29, 70);
+  min-height: 4rem;
+  justify-content: space-between;
+  padding: 0.5rem;
+  color: white;
+}
+
+.navi {
+  padding: 5px;
+  margin-right: 30px;
+}
+
+.navbrand {
+  display: flex;
+  align-items: center;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  list-style-type: none;
+}
+
+.sethead {
+  float: right;
+  align-items: center;
+  display: flex;
+  padding-right: 30px;
+  height: 100%;
+}
+
+.mic {
+  padding-right: 30px;
+}
+
+.dataheading {
+  text-align: center;
+  font-weight: 700;
+  background-color: rgb(58, 58, 95);
+  margin-top: 0;
+  margin-bottom: -15px;
+  padding: 25px 0;
+}
