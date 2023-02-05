@@ -1,12 +1,10 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 import Dashboard from './Components/Pages/Dashboard';
 import Details from './Components/Pages/Details';
 
-function App() {
-  return (
-    <BrowserRouter>
-    <Routes>
+const App = () => (
+  <Routes>
     <Route
       path="/"
       element={(
@@ -25,8 +23,6 @@ function App() {
       )}
     />
   </Routes>
-    </BrowserRouter>
-  );
-}
+);
 
 export default App;
