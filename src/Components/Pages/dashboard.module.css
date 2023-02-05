@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(45, 45, 105);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background: rgb(29, 29, 70);
+  justify-content: space-between;
+  min-height: 4rem;
+  padding: 0.5rem;
+  color: white;
+}
+
+.brand {
+  margin-left: 40px;
+}
+
+.stocklist {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: white;
+  font-size: 17px;
+}
+
+.direct {
+  color: white;
+  font-size: x-large;
+  margin-right: 10px;
+}
+
+.card {
+  margin: 10px;
+  background: rgb(58, 58, 95);
+  padding: 10px;
+}
+
+.chart {
+  width: 10rem;
+}
+
+.settings {
+  float: right;
+  align-items: center;
+  display: flex;
+  padding-right: 30px;
+  height: 100%;
+}
+
+.audio {
+  padding-right: 30px;
+}
+
+@media (max-width: 768px) {
+  .chart {
+    width: 8rem;
+  }
+
+  .stocklist {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
