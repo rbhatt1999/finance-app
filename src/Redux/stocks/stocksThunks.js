@@ -1,35 +1,28 @@
+import { createAsyncThunk } from '@reduxjs/toolkit';
 import {
-  retrieveAllStocks,
-  retrieveSingleStock,
-  startLoadingData,
-  stopLoadingData,
+  GET_STOCK_METRICS,
+  GET_SINGLE_STOCK,
 } from './stocksActions';
 
 const Endpoint = 'https://financialmodelingprep.com/api/v3/';
-const ApiKey = '5359bdf31c45879aa972450bd6e2275e';
+const ApiKey = '73caddf626930ab0cbb3003782a8eb81';
 
-export const fetchApiData = () => async (dispatch) => {
+export const fetchApiData = createAsyncThunk(GET_STOCK_METRICS, async () => {
   try {
-    dispatch(startLoadingData(true));
     const response = await fetch(`${Endpoint}stock_market/actives?apikey=${ApiKey}`);
     const info = await response.json();
-    dispatch(retrieveAllStocks(info));
+    return info;
   } catch (err) {
     throw new Error(err);
-  } finally {
-    dispatch(stopLoadingData(false));
   }
-};
+});
 
-export const fetchStockDetails = (payload) => async (dispatch) => {
+export const fetchStockDetails = createAsyncThunk(GET_SINGLE_STOCK, async (payload) => {
   try {
-    dispatch(startLoadingData(true));
     const response = await fetch(`${Endpoint}/income-statement/${payload.symbol}?limit=120&apikey=${ApiKey}`);
     const info = await response.json();
-    dispatch(retrieveSingleStock({ info, name: payload.companyName, price: payload.price }));
+    return { info, name: payload.companyName, price: payload.price };
   } catch (err) {
     throw new Error(err);
-  } finally {
-    dispatch(stopLoadingData(false));
   }
-};
+});
