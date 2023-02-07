@@ -6,7 +6,7 @@ import store from '../Redux/configureStore';
 
 describe('the card items', () => {
   it('should show the card data', () => {
-    const { asFragment } = render(<Provider store={store}><Card change={4.4} companyName="Google" price= {5000} changesPercentage= {3.76} symbol="G" /></Provider>, { wrapper: MemoryRouter });
+    const { asFragment } = render(<Provider store={store}><Card change={4.4} companyName="Google" price={5000} changesPercentage={3.76} symbol="G" /></Provider>, { wrapper: MemoryRouter });
     expect(asFragment()).toMatchSnapshot();
   });
 });

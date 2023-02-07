@@ -4,3 +4,8 @@ body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
 }
+
+.search-input {
+  width: 100%;
+  height: 25px;
+}

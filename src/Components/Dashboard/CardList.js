@@ -18,7 +18,7 @@ const CardList = () => {
 
   return (
     <>
-      <input type="text" value={searchVal} placeholder="Search..." onChange={searchFilter} />
+      <input className="search-input" type="text" value={searchVal} placeholder="Search..." onChange={searchFilter} />
 
       <ul className={styles.stocklist}>
 
