@@ -14,6 +14,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [🚀 Video Presentation](#presentation)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -53,7 +54,13 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://rbhatt1999.github.io/finance-app/) not working right now....
+- [Live Demo Link](https://shiny-unicorn-daad16.netlify.app/)- Powered by Netlify
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Video Presentation <a name="presentation"></a>
+
+- [Video Presentation Link](https://www.loom.com/share/10f2e15343b84bc382dc0c596cdd3d6e)- Powered by Loom
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
