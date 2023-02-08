@@ -1,46 +1,146 @@
-# Getting Started with Create React App and Redux
+<a name="readme-top"></a>
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+  <img src="https://github.com/rbhatt1999/rbhatt1999/blob/bd8bb27a9814ab74d6f920a1027494a65610a24d/logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
-## Available Scripts
+  <h3><b>finance-app</b></h3>
+</div>
 
-In the project directory, you can run:
+# 📗 Table of Contents
 
-### `npm start`
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+  - [🚀 Video Presentation](#presentation)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 📖 Finance app <a name="about-project"></a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Finance-app** offers real-time stock prices and in-depth analysis for US companies. Stay informed with financial statements, earnings reports, and analyst recommendations. Make informed investment decisions with our user-friendly interface and comprehensive analysis tools. Stay on top of the stock market and take control of your financial future.
 
-### `npm test`
+## 🛠 Built With <a name="built-with"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Tech Stack <a name="tech-stack"></a>
 
-### `npm run build`
+> This project use React JS.
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React</a></li>
+    <li><a href="https://redux.js.org/">Redux</a></li>
+  </ul>
+</details>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Key Features <a name="key-features"></a>
+- **Add books with author and title**
+- **Store in API**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Live Demo <a name="live-demo"></a>
 
-### `npm run eject`
+- [Live Demo Link](https://shiny-unicorn-daad16.netlify.app/)- Powered by Netlify
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Video Presentation <a name="presentation"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [Video Presentation Link](https://www.loom.com/share/10f2e15343b84bc382dc0c596cdd3d6e)- Powered by Loom
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Learn More
+## 💻 Getting Started with finance-app <a name="getting-started"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Setup
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Clone this [repository](https://github.com/rbhatt1999/finance-app.git) to your desired folder:
+
+```sh
+  cd my-folder
+  git clone https://github.com/rbhatt1999/finance-app.git 
+  cd finance-app
+```
+
+### Install
+
+Install this project with:
+
+```sh
+  npm install
+```
+
+### Start
+
+To start the application, run the following command
+
+```sh
+  npm start
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+```sh
+  npm test
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Authors <a name="authors"></a>
+👤 **Rohit Bhatt**
+
+- GitHub: [@rbhatt1999](https://github.com/rbhatt1999)
+- Twitter: [@Rohit_Bhatt_](https://twitter.com/Rohit_Bhatt_)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/rohitbhatt-dev/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Add About section for creator
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/rbhatt1999/finance-app/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project, Give a ⭐️.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- Project from [Microverse](https://www.microverse.org/?grsf=i6yi2m) React & Redux module
+
+- Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/gallery/31579789/Ballhead-App-%28Free-PSDs%29). Under the [Creative Commons License](https://creativecommons.org/licenses/by-nc/4.0/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

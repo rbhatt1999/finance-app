@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(29, 76, 162);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background: rgb(67, 105, 177);
+  justify-content: space-between;
+  min-height: 4rem;
+  padding: 0.5rem;
+  color: white;
+}
+
+.brand {
+  margin-left: 40px;
+}
+
+.brand > h1 {
+  font-size: 20px;
+}
+
+.stocklist {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: white;
+  font-size: 17px;
+}
+
+.card {
+  background: rgb(62, 97, 163);
+  padding: 10px;
+  width: 50%;
+}
+
+.priceContainer {
+  width: 100%;
+}
+
+.direct {
+  color: white;
+  margin-right: 10px;
+  width: 20px;
+}
+
+.chart {
+  width: 10rem;
+}
+
+.settings {
+  float: right;
+  align-items: center;
+  display: flex;
+  padding-right: 30px;
+  height: 100%;
+}
+
+.audio {
+  padding-right: 30px;
+}
+
+.cName {
+  font-size: 15px;
+  display: block;
+  width: 120px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 700;
+}
+
+.changev {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.changeContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.price {
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 25px;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.topCard {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .chart {
+    width: 8rem;
+  }
+}
