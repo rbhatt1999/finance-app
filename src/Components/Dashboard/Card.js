@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Row, Col, Container } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import { BsArrowRightCircle, BsArrowUp, BsArrowDown } from 'react-icons/bs';
 import { NavLink } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
@@ -19,43 +19,38 @@ const Card = ({
 
   return (
     <Col className={styles.card} onClick={onClick}>
-      <div>
+      <div className={styles.navigation}>
         <NavLink to="/details">
           <BsArrowRightCircle className={styles.direct} onClick={onClick} />
         </NavLink>
-        <span>
-          <b>{companyName}</b>
-        </span>
-      </div>
-      <div className="top-card">
-        <span>
-          <h6>{symbol}</h6>
-        </span>
-        <span>
-          <b>
+        <p className={styles.cName}>
+          {companyName}
+        </p>
+        <div className={styles.priceContainer}>
+          <p className={styles.price}>
             $
             {price}
-          </b>
-        </span>
-        <Container fluid>
+          </p>
           <Row>
             <Col>
-              <div>
-                <span>
+              <div className={styles.changeContainer}>
+                <p className={styles.changev}>
                   <BsArrowUp color="green" />
                   {changesPercentage}
-                </span>
-                <span>
+                </p>
+                <p className={styles.changev}>
                   <BsArrowDown color="red" />
                   {change}
-                </span>
+                </p>
               </div>
             </Col>
-            <Col>
-              <img src={graph} className={styles.chart} alt="chart" />
-            </Col>
           </Row>
-        </Container>
+        </div>
+      </div>
+      <div className={styles.topCard}>
+        <Col>
+          <img src={graph} className={styles.chart} alt="chart" />
+        </Col>
       </div>
     </Col>
   );
