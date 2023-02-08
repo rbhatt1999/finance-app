@@ -12,6 +12,8 @@ const CardList = () => {
     setSearchVal(e.target.value.toLowerCase());
   };
 
+  const colorVar = [1, 2, 5, 6, 9, 10, 13, 14, 17, 18, 21, 22, 25, 26, 29];
+
   useEffect(() => {
     dispatch(fetchApiData());
   }, [dispatch]);
@@ -29,9 +31,10 @@ const CardList = () => {
                     return filtered;
                   }
                   return filtered.name.toLowerCase().includes(searchVal);
-                }).map((item) => (
+                }).map((item, index) => (
                   <Card
                     key={item.symbol}
+                    className={(colorVar.includes(index)) ? 'changeColor' : ''}
                     change={item.change}
                     companyName={item.name}
                     price={item.price}

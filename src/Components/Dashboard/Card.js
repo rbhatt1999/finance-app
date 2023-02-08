@@ -9,7 +9,7 @@ import styles from '../Pages/dashboard.module.css';
 import { fetchStockDetails } from '../../Redux/stocks/stocksThunks';
 
 const Card = ({
-  change, companyName, price, changesPercentage, symbol,
+  change, companyName, price, changesPercentage, symbol, className,
 }) => {
   const dispatch = useDispatch();
 
@@ -18,7 +18,7 @@ const Card = ({
   };
 
   return (
-    <Col className={styles.card} onClick={onClick}>
+    <Col className={`${styles.card} ${className}`} onClick={onClick}>
       <div className={styles.navigation}>
         <NavLink to="/details">
           <BsArrowRightCircle className={styles.direct} onClick={onClick} />
@@ -64,4 +64,5 @@ Card.propTypes = {
   price: PropTypes.number.isRequired,
   changesPercentage: PropTypes.number.isRequired,
   symbol: PropTypes.string.isRequired,
+  className: PropTypes.string.isRequired,
 };

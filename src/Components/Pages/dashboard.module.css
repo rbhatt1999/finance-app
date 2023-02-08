@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(67, 105, 176);
+  background-color: rgb(29, 76, 162);
 }
 
 .navbar {
@@ -38,26 +38,6 @@ body {
   background: rgb(62, 97, 163);
   padding: 10px;
   width: 50%;
-}
-
-.card:nth-child(2n) {
-  background-color: rgb(67, 105, 176);
-}
-
-.card:first-child {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  background-color: #5687e3;
-}
-
-.card:last-child {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  background-color: #5687e3;
 }
 
 .priceContainer {
