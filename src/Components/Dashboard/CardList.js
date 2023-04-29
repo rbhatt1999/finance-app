@@ -12,7 +12,7 @@ const CardList = () => {
     setSearchVal(e.target.value.toLowerCase());
   };
 
-  const colorVar = [1, 2, 5, 6, 9, 10, 13, 14, 17, 18, 21, 22, 25, 26, 29];
+  const colorVar = [1, 2, 5, 6, 9, 10, 13, 14, 17, 18, 21, 22, 25, 26, 29, 30, 33, 34, 37, 38, 41, 42, 45, 46, 49, 50, 53, 54];
 
   useEffect(() => {
     dispatch(fetchApiData());
